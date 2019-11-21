@@ -3,7 +3,7 @@ description: "Execute some checks using terraform fmt and validation"
 author: "luizm"
 runs:
   using: "docker"
-  image: 'Dockerfile'
+  image: "Dockerfile"
 branding:
-  icon: "terminal"
-  color: "black"
+  icon: "check-circle"
+  color: "blue"
