@@ -1,0 +1,9 @@
+name: "tf-checker"
+description: "Execute some checks using terraform fmt and validation"
+author: "luizm"
+runs:
+  using: "docker"
+  image: 'Dockerfile'
+branding:
+  icon: "terminal"
+  color: "black"
