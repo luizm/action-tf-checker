@@ -23,4 +23,5 @@ jobs:
 
 **Environments:**
 
-- TF_CHECKER_EXCLUDE_REGEX: The regex to filter the files or directories that don't need to check.
+- TF_CHECKER_EXCLUDE_REGEX: The regex to filter the files or directories that don't need to check. (Optional)
+- TF_CHECKER_ALL_FILES: If set true it will check all tf files. The default is false, check only the modified files. (Optional)
