@@ -1,4 +1,4 @@
-# sh-checker
+# tf-checker
 
 A GitHub Action that check a terraform recipes using a subcommand `fmt` and `validate` to do that.
 
@@ -11,7 +11,7 @@ name: example
 on:
   push:
 jobs:
-  sh-checker:
+  tf-checker:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
